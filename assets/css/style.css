@@ -10,7 +10,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color:#3a3a3a;
 
 }
 
@@ -75,7 +75,7 @@ h1, h2{
 #hero-image{
     height: 600px;
     width: 100%;
-    background-image: url('../images/hero-image.webp') no-repeat center center;
+    background: url("../images/hero-image.webp") no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -83,7 +83,7 @@ h1, h2{
     animation-fill-mode: forwards;
 }
 
-/* Creates the level of zoom on our here image */
+/* Creates the level of zoom on our hero image */
 
 @keyframes hero-zoom {
     from{
@@ -123,10 +123,10 @@ h1, h2{
 #left-about{
     padding-top:30px;
     width: 32%;
-    float:left;
+    float: left;
 }
 #right-about{
-    padding-top:30px;
+    padding-top: 30px;
     width: 32%;
     float: right;
 }
@@ -143,18 +143,18 @@ hr{
 
 .left-about-heading{
     width: 60%;
-    float:right;
+    float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
 
 .right-about-heading{
-    width:60%;
-    float:left;
+    width: 60%;
+    float: left;
     line-height: 20px;
-    clear:both;
-    margin-bottom:50px;
+    clear: both;
+    margin-bottom: 50px;
 }
 .right-about-heading h2{
     text-align: right;
@@ -167,7 +167,7 @@ hr{
 #welcome{
     text-align: center;
     margin: 20% 0;
-    font-style: 280%
+    font-size: 280%;
 }
 
 #circle-container{
@@ -196,7 +196,7 @@ hr{
 
 #times div{
     color: #fafafa;
-    backgdound-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .6);
     width: 20%;
     height: 300px;
     float:left;
@@ -209,3 +209,23 @@ hr{
 #times h2{
     color: #fafafa;
 }
+ /*footer*/
+
+ #footer{
+     height: 150px;
+ }
+
+ .social-networks{
+     text-align: center;
+ }
+
+ .social-networks{
+     display: inline;
+ }
+
+ .social-networks{
+     font-size: 150%;
+     margin: 1%;
+     padding: 5%;
+     color: #3a3a3a;
+ }
