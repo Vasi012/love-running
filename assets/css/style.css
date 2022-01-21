@@ -190,7 +190,7 @@ hr{
 }
 
 #times{
-    background: url('../images/london-night.jpg');
+    background-image: url('../images/london-night.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -199,18 +199,18 @@ hr{
 
 #times div{
     color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 20%;
     height: 300px;
     float: left;
-    padding: 30px 0 0 10px;
+    padding: 20px 0 0 10px;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
 }
 
 #times h2{
-    color: #fafafa;
+    color: #a4d6aa;
 }
  /*footer*/
 
