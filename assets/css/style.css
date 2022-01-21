@@ -1,4 +1,4 @@
-@import url('https //fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
 
 *{
     margin: 0;
@@ -8,21 +8,22 @@
 
 
 body {
-    font-family: Lato, sans-serif;
+    font-family: 'Luxurious Roman', sans-serif;
     font-weight: 300;
-    color:#3a3a3a;
-
+    color:#3b3b3b;
 }
+
 
 /* headings and logo */
 
 h1, h2{
-    font-family: Oswald, sans-serif;
+    font-family: 'Luxurious Roman', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 
 }
+
 
 #logo{
     float: left;
@@ -96,7 +97,7 @@ h1, h2{
 
 #cover-text{
     font-size: 130%;
-    font-family: Oswald, sans-serif;
+    font-family: Luxurious Roman, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
@@ -106,7 +107,7 @@ h1, h2{
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(94, 190, 91, 0.7);
 
     bottom: 30px;
     right: 150px;
@@ -199,7 +200,7 @@ hr{
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
     height: 300px;
-    float:left;
+    float: left;
     padding: 30px 0 0 10px;
     text-align: center;
     border: 2px solid white;
