@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Luxurious Roman', sans-serif;
-    font-weight: 300;
+    font-weight: 300%;
     color:#3b3b3b;
 }
 
@@ -79,6 +79,7 @@ h1, h2{
     background: url("../images/hero-image.webp") no-repeat center center;
 
     /* animates zoom effect on loading page */
+    
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -212,15 +213,15 @@ hr{
 }
  /*footer*/
 
- #footer{
+ #footer {
      height: 150px;
  }
 
- .social-networks{
+ .social-networks {
      text-align: center;
  }
 
- .social-networks{
+ .social-networks {
      display: inline;
  }
 
