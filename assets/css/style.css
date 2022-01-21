@@ -73,21 +73,21 @@ h1, h2{
     color: #fff;
 }
 
-#hero-image{
+#girl-running{
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center;
+    background: url("../images/girl-running.jpg") no-repeat center center;
 
     /* animates zoom effect on loading page */
-    
-    animation-name: hero-zoom;
+
+    animation-name: girl-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
 /* Creates the level of zoom on our hero image */
 
-@keyframes hero-zoom {
+@keyframes girl-zoom {
     from{
         transform: scale(1);
     }
@@ -184,13 +184,14 @@ hr{
     }
 
 #circle-cover-bg{
-    background: url('../images/ethos-center-image.jpg') no-repeat center center;
+    background: url('../images/girl-running-up-stairs.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #times{
-    background: url('../images/dublin-city.webp') no-repeat;
+    background: url('../images/london-night.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
